@@ -1,0 +1,23 @@
+<div class="container">
+  <h1 align="center">Welcome To Appointment Management</h1>
+  <nav class="navbar navbar-dark bg-dark" >
+   
+    <ul class="nav nav-tabs ">
+    <li class="nav-item ">
+      <a class="nav-link" class="btn btn-outline-success  btn-sm  mr-3" routerLink="make-appointment">make Appointment</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" class="btn btn-outline-success btn-sm mr-3"  routerLink="get-appointment">appointment Details</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" class="btn btn-outline-success btn-sm mr-3"  routerLink="approve-appointment">approve Appointment Details</a>
+    </li>
+    
+  </ul>
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+  </nav>
+  </div>
+  <router-outlet></router-outlet>
